@@ -50,7 +50,7 @@ body {
     margin-left: 0%;
     margin-right: 10%;
   }
-}
+
 header {
   padding: .5rem 0;
   background-color: #ccc;
@@ -117,6 +117,7 @@ nav a:hover {
     margin-left: 0%;
     margin-right: 10%;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -181,6 +182,7 @@ nav a:hover {
   vertical-align: middle;
   padding: .5em 1em;
 }
+
 img {
   display: block;
   width: 100%;
@@ -204,7 +206,7 @@ div {
 }
 
 .btn a:hover {
-  background-color: #fff	;
+  background-color: #fff;
   color: #000;
 }
 
@@ -231,7 +233,7 @@ section {
   display:none;
 }
 
-.photo:nth-child(3){
+.photo:nth-child(3) {
   width: 30%
 }
 
@@ -242,10 +244,9 @@ section {
     padding: .5em;
   }
 
-  h2{
+  h2 {
     margin: 0;
   }
-
 
   .ingred {
     columns: 2;
@@ -266,10 +267,12 @@ section {
   .photo:nth-child(3),
   .photo:nth-child(4) {
     display: none;
-}
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
+
   html {
     line-height: 1.4;
     font-size: 110%;
@@ -309,6 +312,7 @@ section {
   .photo:nth-child(1) {
     display: none;
   }
+
 }
 
 
@@ -342,7 +346,6 @@ p {
 .btn-small {
   font-size: .875rem;
 }
-
 
 .img-columns {
   display: block;
@@ -378,10 +381,13 @@ p {
     justify-content: space-between;
     width: 50%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .img-columns {
     width: 40%;
+}
+
 }
