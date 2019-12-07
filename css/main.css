@@ -452,12 +452,12 @@ p {
   .footer {
     justify-content: center;
   }
+
   .links li {
     float: right;
     justify-content: space-between;
     padding: .3em;
   }
-
 
   .social > ul {
     float: left;
@@ -466,4 +466,5 @@ p {
   .social > li {
     width: 6em;
   }
+
 }
