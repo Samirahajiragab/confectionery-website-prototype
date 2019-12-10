@@ -186,6 +186,13 @@ nav a:hover {
   padding: .5em 1em;
 }
 
+@media only screen and (min-width: 90em) {
+
+  .info {
+    font-size: 1.5rem;
+  }
+}
+
 .img-flex {
   display: block;
   width: 100%;
@@ -393,7 +400,12 @@ p {
     width: 40%;
   }
 
+  .columns{
+    font-size: 1.5rem;
+  }
+
 }
+
 
 .footer {
   display: flex;
