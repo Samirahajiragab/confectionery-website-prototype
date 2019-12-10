@@ -191,6 +191,7 @@ nav a:hover {
   .info {
     font-size: 1.5rem;
   }
+
 }
 
 .img-flex {
@@ -400,12 +401,11 @@ p {
     width: 40%;
   }
 
-  .columns, h3{
+  .columns, h3 {
     font-size: 1.5rem;
   }
 
 }
-
 
 .footer {
   display: flex;
